@@ -1,0 +1,47 @@
+# Site information
+site_name: Robot Documentation
+site_url: https://sitename.example
+site_author: Hercules Gousis
+site_description: Robot Documentation
+
+# Copyright
+copyright: Copyright &copy; 2025 TEXTaiLES
+
+# Repository
+repo_name: Robot-documentation-test
+repo_url: https://github.com/TEXTaiLES/Robotics
+
+# Config
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: grey
+  logo: assets/Icon-Textailes-Colour-RGB-Ver.png
+  favicon: assets/Icon-Textailes-Colour-RGB-Ver.png
+
+
+# Extra
+extra:
+  social: 
+    - icon: fontawesome/brands/github
+      link: https://github.com/HerGousis
+
+
+extra_css:
+  - stylesheets/extra.css
+
+# Page
+nav:
+  - Deployment: 
+    - Basic Installation: deployment/installation_basic.md
+    - Object Detection: deployment/Object_detection.md
+    - Data Collection: deployment/Data_collection.md
+    - 3D Reconstruction: deployment/3D_reconstruction.md
+  - Gazebo:
+    - World Creation: Gazebo/World_creation.md
+    - Object  Ιnsertion: Gazebo/Object_insertion.md
+   
+  - UGV with 6 Dof Robotic Arm:
+    - Arm Control: UGV_with_robotic_arm/control_arm.md
+    - UGV Control: UGV_with_robotic_arm/control_ugv.md

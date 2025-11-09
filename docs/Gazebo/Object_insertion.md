@@ -1,0 +1,5 @@
+# Object Insertion
+
+<p style="text-align: justify;">
+To import a new 3D object (.obj) into Gazebo, first create a model folder inside ~/.gazebo/models/ (e.g. ~/.gazebo/models/object1). Inside this folder, add subdirectories materials/textures and materials/scripts, where you place the texture image (.jpg or .png). In the main folder, include the object files (object1.obj and object1.mtl). Then create two files: model.config, which contains basic model information (name, description, author), and model.sdf, where you define the geometry using <mesh><uri>model://object1/object1.obj</uri></mesh> and specify whether the object is static (<static>true</static>) or movable (false). After saving, open Gazebo and from Insert → Model you can select and place your new object into the simulation world.
+</p>

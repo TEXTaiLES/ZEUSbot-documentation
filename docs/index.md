@@ -1,7 +1,7 @@
-# ROBOT DOCUMENTATION PORTAL
+# ZEUSBOT DOCUMENTATION PORTAL
 
 <p align="center">
-    <a href = "https://github.com/TEXTaiLES/Robotics" target="_blank">
+    <a href = "https://github.com/TEXTaiLES/ZEUSbot" target="_blank">
         <img src="assets/robot2.png" alt="ROBOTIC" width="500"/>
     </a>
 </p>

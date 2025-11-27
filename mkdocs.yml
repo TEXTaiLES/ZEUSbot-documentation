@@ -1,15 +1,15 @@
 # Site information
-site_name: Robot Documentation
+site_name: ZEUSbot Documentation
 site_url: https://sitename.example
 site_author: Hercules Gousis
-site_description: Robot Documentation
+site_description: ZEUSbot Documentation
 
 # Copyright
 copyright: Copyright &copy; 2025 TEXTaiLES
 
 # Repository
-repo_name: Robot-documentation-test
-repo_url: https://github.com/TEXTaiLES/Robotics
+repo_name: ZEUSbot-documentation-test
+repo_url: https://github.com/TEXTaiLES/ZEUSbot
 
 # Config
 theme:
@@ -30,6 +30,8 @@ extra:
 
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
 
 # Page
 nav:
